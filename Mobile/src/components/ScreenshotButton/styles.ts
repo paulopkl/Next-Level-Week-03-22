@@ -10,7 +10,7 @@ export const styles = StyleSheet.create({
         justifyContent: "center",
         alignItems: "center",
         marginRight: 8,
-        position: "relative"
+        position: "relative",
     },
     removeIcon: {
         position: "absolute",
@@ -20,5 +20,5 @@ export const styles = StyleSheet.create({
     image: {
         width: 40,
         height: 40,
-    }
+    },
 });
