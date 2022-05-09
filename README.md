@@ -93,29 +93,31 @@ npm run build && npm run preview
 
 ## Executando o projeto Mobile
 
-Garanta que você tem o cli do **expo** instalado em sua maquina, se não utilize: **npm install --global expo-cli**, rode **expo whoaim** para garantir.
+Garanta que você tem o cli do **expo** instalado em sua maquina, caso não! utilize: **npm install --global expo-cli*. Rode **expo whoaim** para garantir.
 Utilize o **yarn** ou o **npm install** para instalar as dependências do projeto.
 
-1. Iniciar projeto em seu Smartphone.
+-   [x] Iniciar projeto em seu Smartphone.
 
--   [x] Instale o App 'Expo Go' em seu Smartphone.
+    1. Instale o App **Expo Go** em seu Smartphone.
 
-Inicie o projeto Mobile
-```cl
-npm start
-```
+    2. Inicie o projeto Mobile
+    ```cl
+    npm start
+    ```
 
--   [x] Scanneie o QRCode na tela do terminal com o seu aplicativo.
+    3. Scanneie o QRCode na tela do terminal com o seu aplicativo.
 
-2. Iniciar projeto no Emulador.
+<br/>
 
--   [x] Garanta que você tenha o ambiente do Android Studio corretamente instalado.
--   [x] Inicie qualquer emulador de Smartphone.
+-   [x] Iniciar projeto no Emulador.
 
-Inicie o projeto Mobile
-```cl
-npm run android
-```
+    1. Garanta que você tenha o ambiente do Android Studio corretamente instalado.
+    2. Inicie qualquer emulador de Smartphone.
+
+    3. Inicie o projeto Mobile
+    ```cl
+    npm run android
+    ```
 
 - [x] Tudo pronto, agora aproveite. :tada: :tada: :tada: :tada:
 
