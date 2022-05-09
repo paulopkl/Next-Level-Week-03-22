@@ -8,9 +8,9 @@
     <img src="https://img.shields.io/static/v1?label=NLW&message=08&color=7B61FF&labelColor=0A1033" alt="NLW 08" />
 </p>
 
-<div width="100%">
-    <img src=".github/frontend_project.JPG?style=flat" width="49%">
-    <img src=".github/mobile_project.JPG?style=flat" width="49%">
+<div width="100%" style="display: flex; align-items: start;">
+    <img src=".github/frontend_project.JPG?style=flat" width="98%">
+    <img src=".github/mobile_project.JPG?style=flat">
 </div>
 
 
