@@ -1,18 +1,12 @@
-<!-- 
-    <h1 align="center">
-        <img alt="GamePlay" height="80" title="Plant Manager" src=".github/logo.png" />
-    </h1>
--->
 <p align="center">
     <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=7B61FF&labelColor=0A1033" />
     <img src="https://img.shields.io/static/v1?label=NLW&message=08&color=7B61FF&labelColor=0A1033" alt="NLW 08" />
 </p>
 
-<div align="center">
-    <div style="display: flex; align-items: flex-start;">
-        <img src="https://github.com/paulopkl/Next-Level-Week-03-22/blob/master/.github/frontend_project.JPG?style=flat" width="49%" />
-        <img src="https://github.com/paulopkl/Next-Level-Week-03-22/blob/master/.github/mobile_project.JPG?style=flat" width="49%" />
-    </div>
+
+<div style="display: flex; align-items: flex-start;">
+    <img src="https://github.com/paulopkl/Next-Level-Week-03-22/blob/master/.github/frontend_project.JPG?style=flat" width="49%" />
+    <img src="https://github.com/paulopkl/Next-Level-Week-03-22/blob/master/.github/mobile_project.JPG?style=flat" width="49%" />
 </div>
 
 ## 💻 Projeto
