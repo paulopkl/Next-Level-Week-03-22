@@ -10,8 +10,8 @@
 
 <div align="center">
     <div style="display: flex; align-items: flex-start;">
-        <img src=".github/frontend_project.JPG?style=flat" style="flex: 1;" />
-        <img src=".github/mobile_project.JPG?style=flat" style="flex: 1;" />
+        <img src="https://github.com/paulopkl/Next-Level-Week-03-22/blob/master/.github/frontend_project.JPG?style=flat" width="49%" />
+        <img src="https://github.com/paulopkl/Next-Level-Week-03-22/blob/master/.github/mobile_project.JPG?style=flat" width="49%" />
     </div>
 </div>
 
