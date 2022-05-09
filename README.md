@@ -1,13 +1,13 @@
-<!-- <h1 align="center">
-  <img alt="GamePlay" height="80" title="Plant Manager" src=".github/logo.png" />
-</h1>
-
+<!-- 
+    <h1 align="center">
+        <img alt="GamePlay" height="80" title="Plant Manager" src=".github/logo.png" />
+    </h1>
+-->
 <p align="center">
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=E51C44&labelColor=0A1033">
 
  <img src="https://img.shields.io/static/v1?label=NLW&message=06&color=E51C44&labelColor=0A1033" alt="NLW 06" />
-</p> -->
-
+</p>
 
 <!-- ![cover](.github/cover.png?style=flat) -->
 
@@ -18,52 +18,76 @@ Concerteza o que você verá aqui é o mais alto nível de código, não espere 
 
 ## ✨ Tecnologias
 
--   [ ] React
--   [ ] Typescript
--   [ ] Expo
--   [ ] NodeJs
--   [ ] Axios
--   [ ] Expo Google Fonts
--   [ ] React Native Gesture Handler
-
+-   [x] React
+-   [x] React Native
+-   [x] NodeJs
+-   [x] Typescript
+-   [x] Axios
+-   [x] Expo
+-   [x] Expo Google Fonts
+-   [x] React Native Gesture Handler
+-   [x] TailwindCSS
+-   [x] Prisma - (SQLite)
+-   [x] Nodemailer
 
 ## :hammer_and_wrench: Features 
 
--   [ ] Autenticação Social OAuth2 com servidor do Discord.
--   [ ] Obtém perfil do usuário cadastro no Discord (username e avatar);
--   [ ] Lista os servidores do Discord que o usuário faz parte;
--   [ ] Permite realizar o agendamento de partidas;
--   [ ] Permite filtrar as partidas por categoria;
--   [ ] Exibe se a partida foi agendada em um servidor próprio (anfitrião) ou em servidores de outros (convidado);
--   [ ] Compartilha o convite para ingressar no servidor do usuário;
--   [ ] Permite redirecionar o usuário para o seu próprio servidor;
--   [ ] Disponibiliza a função de Logout.
-
+-   [x] Possibilita envio de feedback por parte do usuário.
+-   [x] Feedbacks incluem (Problemas, Idéias, Outros...).
+-   [x] Feedbacks são enviados ao e-mail do proprietário do 'Site'.
+-   [x] O usário tem a opção de enviar imagens com um botão que tira print da tela.
+-   [x] Projeto Web tem total acessibilidade integrada ao teclado, possibilitando controle total utilizando [Tab], [Tab + Alt] e [Enter].
+-   [x] Imagens facilitando acessibilidade (alt) para leitores de tela.
+-   [x] Testes, testes e mais testes...
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/community/file/991338130828322960). É necessário ter conta no [Figma](http://figma.com/) para acessá-lo.
+Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/ZQhMZ3drdflpbMhwAaVtAz/Feedback-Widget-(Community)?node-id=100%3A2114). É necessário ter conta no [Figma](http://figma.com/) para acessá-lo.
 
 
-## Executando o projeto
+## Executando o projeto Backend
 
 Utilize o **yarn** ou o **npm install** para instalar as dependências do projeto.
 Em seguida, inicie o projeto.
 
+Iniciar projeto em Desenvolvimento
 ```cl
-expo start
+npm run dev
 ```
 
-Lembre-se de criar o seu App no servidor do Discord para obter as credencias de autenticação. Em seguida, defina no arquivo .env as configurações do seu App (remova o example do arquivo .env.example).
+Compilar projeto para Produção
+```cl
+npm run build && npm start
+```
+
+Em seguida, Crie o arquivo .env com as configurações do seu Backend (remova o example do arquivo .env.example).
  
  ```cl
-REDIRECT_URI=
-SCOPE=
-RESPONSE_TYPE=
-CLIENT_ID=
-CDN_IMAGE=
+DATABASE_URL=
+PORT=
+CORS_ORIGIN_URL=
 ```
 
+## Executando o projeto Frontend
+
+Utilize o **yarn** ou o **npm install** para instalar as dependências do projeto.
+Em seguida, inicie o projeto.
+
+Iniciar projeto em Desenvolvimento
+```cl
+npm run dev
+```
+
+Compilar projeto para Produção
+```cl
+npm run build && npm run preview
+```
+
+Em seguida, Crie o arquivo .env com as configurações do seu Frontend (remova o example do arquivo .env.example).
+ 
+ ```cl
+VITE_API_URL=
+```
 
 ## 📄 Licença
 
