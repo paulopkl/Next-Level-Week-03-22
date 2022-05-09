@@ -8,11 +8,12 @@
     <img src="https://img.shields.io/static/v1?label=NLW&message=08&color=7B61FF&labelColor=0A1033" alt="NLW 08" />
 </p>
 
-<div style="display: flex; align-items: flex-start; justify-content: center;">
-    <img src=".github/frontend_project.JPG?style=flat" />
-    <img src=".github/mobile_project.JPG?style=flat" />
+<div align="center">
+    <div style="display: flex; align-items: flex-start;">
+        <img src=".github/frontend_project.JPG?style=flat" style="flex: 1;" />
+        <img src=".github/mobile_project.JPG?style=flat" style="flex: 1;" />
+    </div>
 </div>
-
 
 ## 💻 Projeto
 Um projeto Full-Stack (Back, Front e Mobile) sem fins lucrativos, que o principal foco é diretamente a reusabilidade do código, componentização, melhores práticas e design-patterns.
