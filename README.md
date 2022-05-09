@@ -57,19 +57,17 @@ PORT=
 CORS_ORIGIN_URL=
 ```
 
- - Depois, inicie o projeto.
+-   [x] Depois, inicie o projeto.
 
 Iniciar projeto em Desenvolvimento
 ```cl
 npm run dev
 ```
 
- - Compilar projeto para Produção
+-   [x] Compilar projeto para Produção
 ```cl
 npm run build && npm start
 ```
-
-- [x] Tudo pronto, agora aproveite. :tada: :tada: :tada: :tada: 
 
 ## Executando o projeto Frontend
 
@@ -81,7 +79,7 @@ Em seguida, Crie o arquivo .env com as configurações do seu Frontend (remova o
 VITE_API_URL=
 ```
 
- - Depois, inicie o projeto.
+-   [x] Depois, inicie o projeto.
 
 Iniciar projeto em Desenvolvimento
 ```cl
@@ -95,10 +93,10 @@ npm run build && npm run preview
 
 ## Executando o projeto Mobile
 
-Garanta que você o cli do EXPO instalado em sua maquina.
+Garanta que você tem o cli do **expo** instalado em sua maquina, se não utilize: **npm install --global expo-cli**, rode **expo whoaim** para garantir.
 Utilize o **yarn** ou o **npm install** para instalar as dependências do projeto.
 
-- Iniciar projeto em seu Smartphone.
+1. Iniciar projeto em seu Smartphone.
 
 -   [x] Instale o App 'Expo Go' em seu Smartphone.
 
@@ -109,7 +107,7 @@ npm start
 
 -   [x] Scanneie o QRCode na tela do terminal com o seu aplicativo.
 
-- Iniciar projeto no Emulador.
+2. Iniciar projeto no Emulador.
 
 -   [x] Garanta que você tenha o ambiente do Android Studio corretamente instalado.
 -   [x] Inicie qualquer emulador de Smartphone.
@@ -119,7 +117,7 @@ Inicie o projeto Mobile
 npm run android
 ```
 
-
+- [x] Tudo pronto, agora aproveite. :tada: :tada: :tada: :tada:
 
 ## 📄 Licença
 
