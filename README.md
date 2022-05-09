@@ -9,7 +9,7 @@
 </p>
 
 <div width="100%" style="display: flex; align-items: start;">
-    <img src=".github/frontend_project.JPG?style=flat" width="98%">
+    <img src=".github/frontend_project.JPG?style=flat">
     <img src=".github/mobile_project.JPG?style=flat">
 </div>
 
