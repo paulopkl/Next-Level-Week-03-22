@@ -69,6 +69,8 @@ npm run dev
 npm run build && npm start
 ```
 
+- [x] Tudo pronto, agora aproveite. :tada: :tada: :tada: :tada: 
+
 ## Executando o projeto Frontend
 
 Utilize o **yarn** ou o **npm install** para instalar as dependências do projeto.
@@ -90,6 +92,34 @@ Compilar projeto para Produção
 ```cl
 npm run build && npm run preview
 ```
+
+## Executando o projeto Mobile
+
+Garanta que você o cli do EXPO instalado em sua maquina.
+Utilize o **yarn** ou o **npm install** para instalar as dependências do projeto.
+
+- Iniciar projeto em seu Smartphone.
+
+-   [x] Instale o App 'Expo Go' em seu Smartphone.
+
+Inicie o projeto Mobile
+```cl
+npm start
+```
+
+-   [x] Scanneie o QRCode na tela do terminal com o seu aplicativo.
+
+- Iniciar projeto no Emulador.
+
+-   [x] Garanta que você tenha o ambiente do Android Studio corretamente instalado.
+-   [x] Inicie qualquer emulador de Smartphone.
+
+Inicie o projeto Mobile
+```cl
+npm run android
+```
+
+
 
 ## 📄 Licença
 
