@@ -9,6 +9,7 @@
 </p>
 
 ![cover](.github/frontend_project.JPG?style=flat)
+![cover](.github/mobile_project.JPG?style=flat)
 
 
 ## 💻 Projeto
