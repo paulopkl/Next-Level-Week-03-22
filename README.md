@@ -13,26 +13,18 @@
 
 
 ## 💻 Projeto
-Aplicativo para lhe ajudar a conectar-se e organiza o momento de diversão e jogar com os amigos. Crie grupos para jogar seus games favoritos com seus amigos com esse App que possui autenticação com Discord.
+Um projeto Full-Stack (Back, Front e Mobile) sem fins lucrativos, que o principal foco é diretamente a reusabilidade do código, componentização, melhores práticas e design-patterns.
+Concerteza o que você verá aqui é o mais alto nível de código, não espere encontrar alguma funcionalidade completa, apenas uma acomplação do mais alto nível com.
 
 ## ✨ Tecnologias
 
--   [ ] React Native
+-   [ ] React
 -   [ ] Typescript
 -   [ ] Expo
--   [ ] Context API
--   [ ] Async Storage
--   [ ] Vector Icons
--   [ ] React Native Svg e Svg Transform
+-   [ ] NodeJs
 -   [ ] Axios
--   [ ] Gradient colors
--   [ ] OAuth2 Discord 
 -   [ ] Expo Google Fonts
--   [ ] React Navigation Stack
 -   [ ] React Native Gesture Handler
--   [ ] Expo Authentication
--   [ ] React Native Share
--   [ ] Deep Link
 
 
 ## :hammer_and_wrench: Features 
