@@ -48,17 +48,6 @@ Você pode visualizar o layout do projeto através [desse link](https://www.figm
 ## Executando o projeto Backend
 
 Utilize o **yarn** ou o **npm install** para instalar as dependências do projeto.
-Em seguida, inicie o projeto.
-
-Iniciar projeto em Desenvolvimento
-```cl
-npm run dev
-```
-
-Compilar projeto para Produção
-```cl
-npm run build && npm start
-```
 
 Em seguida, Crie o arquivo .env com as configurações do seu Backend (remova o example do arquivo .env.example).
  
@@ -68,10 +57,29 @@ PORT=
 CORS_ORIGIN_URL=
 ```
 
+ - Depois, inicie o projeto.
+
+Iniciar projeto em Desenvolvimento
+```cl
+npm run dev
+```
+
+ - Compilar projeto para Produção
+```cl
+npm run build && npm start
+```
+
 ## Executando o projeto Frontend
 
 Utilize o **yarn** ou o **npm install** para instalar as dependências do projeto.
-Em seguida, inicie o projeto.
+
+Em seguida, Crie o arquivo .env com as configurações do seu Frontend (remova o example do arquivo .env.example).
+ 
+ ```cl
+VITE_API_URL=
+```
+
+ - Depois, inicie o projeto.
 
 Iniciar projeto em Desenvolvimento
 ```cl
@@ -81,12 +89,6 @@ npm run dev
 Compilar projeto para Produção
 ```cl
 npm run build && npm run preview
-```
-
-Em seguida, Crie o arquivo .env com as configurações do seu Frontend (remova o example do arquivo .env.example).
- 
- ```cl
-VITE_API_URL=
 ```
 
 ## 📄 Licença
