@@ -11,9 +11,7 @@ const transport = nodemailer.createTransport({
 });
 
 export class NodemailerMailAdapter implements MailAdapter {
-    constructor(
-
-    ) { }
+    constructor() {}
 
     async sendMail({ subject, body }: SendMailData) {
         await transport.sendMail({
@@ -22,5 +20,5 @@ export class NodemailerMailAdapter implements MailAdapter {
             subject,
             html: body,
         });
-    };
+    }
 }
