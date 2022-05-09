@@ -4,12 +4,11 @@
     </h1>
 -->
 <p align="center">
-  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=E51C44&labelColor=0A1033">
-
- <img src="https://img.shields.io/static/v1?label=NLW&message=06&color=E51C44&labelColor=0A1033" alt="NLW 06" />
+    <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=7B61FF&labelColor=0A1033" />
+    <img src="https://img.shields.io/static/v1?label=NLW&message=08&color=7B61FF&labelColor=0A1033" alt="NLW 08" />
 </p>
 
-<!-- ![cover](.github/cover.png?style=flat) -->
+![cover](.github/frontend_project.JPG?style=flat)
 
 
 ## 💻 Projeto
@@ -98,23 +97,23 @@ Utilize o **yarn** ou o **npm install** para instalar as dependências do projet
 
 -   [x] Iniciar projeto em seu Smartphone.
 
-    1. Instale o App **Expo Go** em seu Smartphone.
+    1 Instale o App **Expo Go** em seu Smartphone.
 
-    2. Inicie o projeto Mobile
+    2 Inicie o projeto Mobile
     ```cl
     npm start
     ```
 
-    3. Scanneie o QRCode na tela do terminal com o seu aplicativo.
+    3 Scanneie o QRCode na tela do terminal com o seu aplicativo.
 
 <br/>
 
 -   [x] Iniciar projeto no Emulador.
 
-    1. Garanta que você tenha o ambiente do Android Studio corretamente instalado.
-    2. Inicie qualquer emulador de Smartphone.
+    1 Garanta que você tenha o ambiente do Android Studio corretamente instalado.
+    2 Inicie qualquer emulador de Smartphone.
 
-    3. Inicie o projeto Mobile
+    3 Inicie o projeto Mobile
     ```cl
     npm run android
     ```
